@@ -8,6 +8,7 @@
 import Foundation
 import XCTest
 @testable import QuizApp
+import QuizEngine
 
 class QuestionPresenterTest: XCTestCase {
     
