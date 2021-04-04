@@ -23,6 +23,7 @@
 		2DA701542606DD7B00F70C35 /* QuizEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA7014A2606DD7B00F70C35 /* QuizEngine.framework */; };
 		2DA701692606DDCB00F70C35 /* FlowTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA701682606DDCB00F70C35 /* FlowTest.swift */; };
 		2DA7016D2606DEEB00F70C35 /* Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA7016C2606DEEB00F70C35 /* Flow.swift */; };
+		2DFB1F86261949AC000F8E86 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFB1F85261949AC000F8E86 /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		2DA7015A2606DD7B00F70C35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DA701682606DDCB00F70C35 /* FlowTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowTest.swift; sourceTree = "<group>"; };
 		2DA7016C2606DEEB00F70C35 /* Flow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flow.swift; sourceTree = "<group>"; };
+		2DFB1F85261949AC000F8E86 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Question.swift; path = ../../QuizApp/QuizApp/Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				2D1CB629260E87B000DE0277 /* Router.swift */,
 				2D1CB625260E879B00DE0277 /* Result.swift */,
 				2D1CB631260E8AC100DE0277 /* Game.swift */,
+				2DFB1F85261949AC000F8E86 /* Question.swift */,
 			);
 			path = QuizEngine;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DFB1F86261949AC000F8E86 /* Question.swift in Sources */,
 				2D1CB626260E879B00DE0277 /* Result.swift in Sources */,
 				2D1CB62A260E87B000DE0277 /* Router.swift in Sources */,
 				2DA7016D2606DEEB00F70C35 /* Flow.swift in Sources */,
